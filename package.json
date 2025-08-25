@@ -1,0 +1,43 @@
+{
+  "name": "arpit-purohit-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive portfolio website for Arpit Purohit - Computer Science student and developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "web-development",
+    "3d-animations",
+    "responsive-design",
+    "interactive",
+    "css3",
+    "javascript",
+    "html5"
+  ],
+  "author": "Arpit Purohit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arpit-purohit/portfolio.git"
+  },
+  "homepage": "https://arpit-purohit.github.io/portfolio",
+  "bugs": {
+    "url": "https://github.com/arpit-purohit/portfolio/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

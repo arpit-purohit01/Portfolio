@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit Purohit - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AP</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Arpit Purohit</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Computer Science Student & Developer</h2>
+                    <p class="hero-description">
+                        Passionate about creating innovative solutions through code, design, and creativity. 
+                        Specializing in frontend development, 3D design, and problem-solving.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-cube" id="floating-cube">
+                        <div class="cube-face front"></div>
+                        <div class="cube-face back"></div>
+                        <div class="cube-face right"></div>
+                        <div class="cube-face left"></div>
+                        <div class="cube-face top"></div>
+                        <div class="cube-face bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a second-year Computer Science student with a strong passion for technology and innovation. 
+                        My journey in tech started with a curiosity for how things work, which has evolved into a love for 
+                        creating digital experiences that make a difference.
+                    </p>
+                    <p class="about-description">
+                        With expertise in frontend development, I specialize in building responsive, user-friendly web applications. 
+                        My skills extend beyond coding to include 3D modeling with Blender, video editing, and IoT development, 
+                        making me a versatile creator in the digital space.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Problems Solved</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Arpit Purohit</h3>
+                            <p>Computer Science Student</p>
+                            <p>Frontend Developer & 3D Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="HTML5">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS3">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="React">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Creative Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="Blender">
+                            <div class="skill-icon"><i class="fas fa-cube"></i></div>
+                            <span class="skill-name">Blender 3D</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Video Editing">
+                            <div class="skill-icon"><i class="fas fa-video"></i></div>
+                            <span class="skill-name">Video Editing</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="IoT">
+                            <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                            <span class="skill-name">IoT Development</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Problem Solving</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="LeetCode">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <span class="skill-name">LeetCode</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Algorithms">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <span class="skill-name">Algorithms</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Data Structures">
+                            <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                            <span class="skill-name">Data Structures</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Frontend Projects -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A fully responsive e-commerce website built with modern frontend technologies. 
+                            Features include product catalog, shopping cart, and user authentication.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blender 3D Projects -->
+                <div class="project-card" data-category="3d">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sci-Fi Environment</h3>
+                        <p class="project-description">
+                            A detailed 3D environment created in Blender featuring futuristic architecture, 
+                            atmospheric lighting, and complex materials.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Blender</span>
+                            <span class="tech-tag">3D Modeling</span>
+                            <span class="tech-tag">Texturing</span>
+                            <span class="tech-tag">Rendering</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Editing Projects -->
+                <div class="project-card" data-category="video">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-play"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Product Promotional Video</h3>
+                        <p class="project-description">
+                            A dynamic promotional video featuring smooth transitions, motion graphics, 
+                            and professional color grading for a tech startup.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Premiere Pro</span>
+                            <span class="tech-tag">After Effects</span>
+                            <span class="tech-tag">Motion Graphics</span>
+                            <span class="tech-tag">Color Grading</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IoT Projects -->
+                <div class="project-card" data-category="iot">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Home Automation</h3>
+                        <p class="project-description">
+                            An IoT-based home automation system that controls lighting, temperature, 
+                            and security through a mobile app interface.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">ESP32</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Mobile App</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problem Solving Projects -->
+                <div class="project-card" data-category="coding">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://leetcode.com/Arpit_Purohit" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Algorithm Solutions</h3>
+                        <p class="project-description">
+                            A collection of optimized solutions to complex algorithmic problems 
+                            from LeetCode, HackerRank, and competitive programming contests.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">Data Structures</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="image-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Interactive Portfolio</h3>
+                        <p class="project-description">
+                            A modern, responsive portfolio website featuring 3D animations, 
+                            smooth transitions, and interactive elements.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">3D CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Intern - Microsoft AI Azure</h3>
+                            <span class="timeline-company">EduNet Foundation</span>
+                            <span class="timeline-date">2023 - Present</span>
+                        </div>
+                        <p class="timeline-description">
+                            Working on cutting-edge AI and Azure cloud technologies. Contributing to 
+                            machine learning projects and cloud infrastructure development.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">AI/ML</span>
+                            <span class="skill-tag">Cloud Computing</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Problem Solving Expert</h3>
+                            <span class="timeline-company">LeetCode</span>
+                            <span class="timeline-date">2022 - Present</span>
+                        </div>
+                        <p class="timeline-description">
+                            Solved 500+ problems across various difficulty levels. Specialized in 
+                            algorithms, data structures, and competitive programming.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Algorithms</span>
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">3D Artist & Video Editor</h3>
+                            <span class="timeline-company">Freelance</span>
+                            <span class="timeline-date">2021 - Present</span>
+                        </div>
+                        <p class="timeline-description">
+                            Created numerous 3D models, animations, and video content for clients. 
+                            Specialized in product visualization and promotional content.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Blender</span>
+                            <span class="skill-tag">Video Editing</span>
+                            <span class="skill-tag">3D Modeling</span>
+                            <span class="skill-tag">Motion Graphics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:arpitpurohit127@gmail.com">arpitpurohit127@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+918955841582">+91 8955841582</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/arpit-purohit06" target="_blank">arpit-purohit06</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LeetCode</h3>
+                            <a href="https://leetcode.com/Arpit_Purohit" target="_blank">Arpit_Purohit</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Arpit Purohit</h3>
+                    <p class="footer-description">
+                        Computer Science student passionate about technology, creativity, and innovation.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/arpit-purohit06" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/arpit-purohit" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://leetcode.com/Arpit_Purohit" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="mailto:arpitpurohit127@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Skills</h3>
+                    <ul class="footer-links">
+                        <li>Frontend Development</li>
+                        <li>3D Modeling & Animation</li>
+                        <li>Video Editing</li>
+                        <li>IoT Development</li>
+                        <li>Problem Solving</li>
+                        <li>AI & Cloud Computing</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="contact-info-footer">
+                        <p><i class="fas fa-envelope"></i> arpitpurohit127@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91 8955841582</p>
+                        <p><i class="fas fa-map-marker-alt"></i> India</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Arpit Purohit. All rights reserved.</p>
+                <p>Designed with ❤️ and lots of ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
